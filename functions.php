@@ -29,4 +29,6 @@ function any_theme_ss()
 	));
 }
 
+// Recommended Plugins
+require_once get_stylesheet_directory() . '/inc/recommended-plugins.php';
 // Default Functions
