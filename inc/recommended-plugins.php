@@ -1,5 +1,4 @@
 <?php
-
 require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
 
 add_action('tgmpa_register', 'any_required_plugins');
@@ -8,18 +7,15 @@ function any_required_plugins()
 {
 	$plugins = array(
 		/*array(
-		'name'     => 'ACF Gravity Forms field', // The plugin name
-		'slug'     => 'Gravity-Forms-ACF-Field-master', // The plugin slug (typically the folder name)
-		'source'   => 'http://ready-for-feedback3.com/plugins/acf-gravity-forms-field.zip', // The plugin source
+		'name'     => 'Plugin Name',
+		'slug'     => 'Plugin Slag', // The plugin slug (typically the folder name)
+		'source'   => 'Link to Plugin', // The plugin source
 		'required' => false,
 		),*/
 		array(
 			'name' => 'Advanced Custom Fields Pro (b3JkZXJfaWQ9NTU1MDd8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA1LTA2IDExOjUzOjM1)',
-			// The plugin name
 			'slug' => 'advanced-custom-fields-pro',
-			// The plugin slug (typically the folder name)
-			'source' => 'http://ready-for-feedback3.com/plugins/advanced-custom-fields-pro.zip',
-			// The plugin source
+			'source' => 'https://drive.google.com/uc?id=1MBXyTm5xF3I1Upv5oqCTX20qQTX8Mrem&export=download',
 			'required' => false,
 		),
 		array(
@@ -43,11 +39,8 @@ function any_required_plugins()
 		),
 		array(
 			'name' => 'Gravity Forms (86a265e9644d0b79e4ccce71a582fc7e)',
-			// The plugin name
 			'slug' => 'gravityforms',
-			// The plugin slug (typically the folder name)
-			'source' => 'http://ready-for-feedback3.com/plugins/gravityforms.zip',
-			// The plugin source
+			'source' => 'https://drive.google.com/uc?id=16-lqcoVvQoUenLmlPhka4hcEK9RzpNAt&export=download',
 			'required' => false,
 		),
 		array(
