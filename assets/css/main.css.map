@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/core/_vars.scss",
+		"../scss/core/_animations.scss"
+	],
+	"names": [],
+	"mappings": ""
+}
